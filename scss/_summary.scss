@@ -1,0 +1,96 @@
+.summary{
+    width: 25rem;
+    height: 30rem;
+    box-shadow: 6px 4px 12px -8px rgba(79,79,79,0.75);
+-webkit-box-shadow: 6px 4px 12px -8px rgba(79,79,79,0.75);
+-moz-box-shadow: 6px 4px 12px -8px rgba(79,79,79,0.75);
+background: transparent;
+    border-radius: 15px;
+    h3{
+        color: #091a72;
+        font-size: 1.3rem;
+        font-family: $fontP;
+        font-weight: 600;
+        margin-bottom: 10px;
+        
+    }
+
+    button{
+        background-color: #091a72;
+        color: $fontColor;
+        font-family: $fontH;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 50px;
+        width: 19rem;
+        height: 3rem;
+        cursor: pointer;
+        &:hover{
+            background: #1f39b9;
+            transition: all .3 ease;
+        }
+    }
+
+}
+.summary-percent{
+    margin-top: 4rem;
+.percent{
+    width: 19rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    p{
+        color: #091a72;
+        font-weight: 600;
+        font-family: $fontP;
+        margin-right: 10px;
+    }
+    span{
+        color: #d4d0d0;
+        opacity: .9;
+        font-family: $fontP;
+        padding-right: 5px;
+    }   
+} 
+} 
+
+.pc1{
+    background: $reactionColor;
+    h6{
+        color: $reactionColor;
+        font-size: 15px;
+        margin-left: 10px;
+        color:  hsl(0, 100%, 67%);
+    }
+}
+.pc2{
+    background: $memoryColor;
+    h6{
+        color: $memoryColor;
+        font-size: 15px;
+        margin-left: 10px;
+        color: hsl(39, 100%, 56%);
+    }
+}
+.pc3{
+    background: $verbalColor;
+    h6{
+        color: $verbalColor;
+        font-size: 15px;
+        margin-left: 10px;
+        color: hsl(166, 100%, 37%);
+    }
+}
+.pc4{
+    background: $visualColor;
+    h6{
+        color: $visualColor;
+        font-size: 15px;
+        margin-left: 10px;
+        color: hsl(234, 85%, 45%);
+    }
+}
+

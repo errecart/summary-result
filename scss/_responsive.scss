@@ -1,0 +1,15 @@
+@media only screen and (max-width:696px) { 
+	.noteWork{
+        display: block;
+    }
+
+    .summary-percent{
+        margin-top: 1px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .summary .results{
+        width: 15rem;
+    }
+}
